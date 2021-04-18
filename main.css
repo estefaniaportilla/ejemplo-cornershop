@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@font-face {
+    font-family: AvenirNext sans-serif;
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: AvenirNextBold sans-serif;
+    src: url(fonts/AvenirNextLTPro-Bold.otf);
+}
+
+body{
+    font-family: AvenirNext sans-serif;
+}
+
+/*Segunda Parte*/
+
+main {
+    margin-top: 550px;
+    text-align: center;
+  }
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    height: 20px;
+    max-width: 110px;
+    height: 75%;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+form {
+    height: 55px;
+    padding-bottom: 10px ;
+  }
+
+
+  button{
+    background-color: #FF0026;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 16px;
+    margin: 6px;
+    height: 100%;
+    border-radius: 8px;
+    font-family: AvenirNextBold  sans-serif;
+    font-size: 20px;
+  }
+
+#login , a{
+    font-size: 18px;
+    color: #9EA0A4;
+}
+
+#login  a{
+
+    font-weight: bold;
+}
+
+
+  .container{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 135px;
+
+  }
