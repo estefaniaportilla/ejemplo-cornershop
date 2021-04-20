@@ -1,8 +1,10 @@
-*{
+/* <!--CSS: Parte 1 - Eddie --> */
+* {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
+
 @font-face {
     font-family: AvenirNext sans-serif;
     src: url(fonts/AvenirNextLTPro-Regular.otf);
@@ -13,11 +15,37 @@
     src: url(fonts/AvenirNextLTPro-Bold.otf);
 }
 
-body{
+body {
     font-family: AvenirNext sans-serif;
 }
 
-/*Segunda Parte*/
+h1 {
+    padding-right: 52px;
+    padding-bottom: 52px;
+    padding-left: 52px;
+    color: #ff0026;
+    font-weight: 700px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 110px;
+    line-height: 1;
+}
+
+.logo {
+    height: 100%;
+    margin: 250px;
+}
+
+.logo img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+/* <!--Fin Parte 1 --> */
+
+/* <!--CSS: Parte 2 - Gabriel --> */
 
 main {
     margin-top: 550px;
@@ -40,7 +68,6 @@ form {
     padding-bottom: 10px ;
   }
 
-
   button{
     background-color: #FF0026;
     color: #fff;
@@ -59,11 +86,9 @@ form {
     color: #9EA0A4;
 }
 
-#login  a{
-
+#login a{
     font-weight: bold;
 }
-
 
   .container{
       
@@ -71,5 +96,7 @@ form {
       flex-direction: column;
       justify-content: space-evenly;
       height: 135px;
-
   }
+
+  /* <!--Fin Parte 2 --> */
+
