@@ -70,6 +70,5 @@ form {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 135px;
-
+      height: 250px;
   }
