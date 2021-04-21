@@ -1,4 +1,5 @@
 /* <!--CSS: Parte 1 - Eddie --> */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,7 @@ h1 {
     text-align: center;
     margin: 110px;
     line-height: 1;
+    font-family: AvenirNext sans-serif;
 }
 
 .logo {
@@ -99,5 +101,54 @@ form {
 
   }
 
-  /* <!--Fin Parte 2 --> */
+/* <!--Fin Parte 2 --> */
 
+/* <!--CSS: Parte 4 - Estefania --> */
+
+.download {
+     background-color: rgba(220 , 220, 223, 0.8);
+     padding-top: 52px;
+     padding-bottom: 52px;
+ }
+ 
+ .content {
+     padding-left: 52px;
+     padding-right: 52px;
+     margin: auto;
+     max-width: 1037px;
+ }
+ 
+ .group {
+     padding-bottom: 52px;
+     display: table;
+     width: 100%;
+ }
+ 
+ .titulo {
+     display: table-cell;
+     vertical-align: middle;
+     text-align: left;
+ }
+ 
+ .appstores {
+     text-align: right;
+     display: table-cell;
+     vertical-align: middle;
+ }
+ 
+ li {
+     display: inline-flex;
+     margin: 8px;
+     vertical-align: middle;
+     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.15));
+ }
+ 
+ h2 {
+     display: inline-flex;
+     font-size: 36px;
+     font-weight: 600;
+     font-family: AvenirNext sans-serif;
+     white-space: nowrap;
+     margin-right: 16px;
+ }
+/* <!--Fin Parte 4 --> */
