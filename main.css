@@ -16,6 +16,12 @@
     src: url(fonts/AvenirNextLTPro-Bold.otf);
 }
 
+@font-face {
+    font-family: CarroisGothic-Regular;
+    src: url(fonts/CarroisGothic-Regular.ttf);
+}
+
+
 body {
     font-family: AvenirNext sans-serif;
 }
@@ -31,7 +37,7 @@ h1 {
     text-align: center;
     margin: 110px;
     line-height: 1;
-    font-family: AvenirNextBold sans-serif;
+    font-family: CarroisGothic-Regular sans-serif;
 }
 
 .logo {
