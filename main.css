@@ -21,14 +21,14 @@ body {
 
 h1 {
     padding-right: 52px;
-    padding-bottom: 52px;
+    padding-bottom: 45px;
     padding-left: 52px;
     color: #ff0026;
     font-weight: 700px;
+    font-family: AvenirNextBold sans-serif;
     font-size: 70px;
     text-transform: uppercase;
     text-align: center;
-    margin: 110px;
     line-height: 1;
 }
 
@@ -48,7 +48,6 @@ h1 {
 /* <!--CSS: Parte 2 - Gabriel --> */
 
 main {
-    margin-top: 550px;
     text-align: center;
   }
 
@@ -88,6 +87,12 @@ form {
 
 #login a{
     font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#login{
+  margin-bottom: 10px;
+  margin-bottom: 65px
 }
 
   .container{
