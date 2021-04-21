@@ -31,6 +31,7 @@ h1 {
     text-align: center;
     margin: 110px;
     line-height: 1;
+    font-family: AvenirNext sans-serif;
 }
 
 .logo {
@@ -145,7 +146,7 @@ form {
      display: inline-flex;
      font-size: 36px;
      font-weight: 600;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: AvenirNext sans-serif;
      white-space: nowrap;
      margin-right: 16px;
  }
