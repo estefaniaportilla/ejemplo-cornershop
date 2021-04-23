@@ -69,14 +69,14 @@ input {
     border-radius: 8px;
     margin-right: 10px;
     font-size: 17px;
-}
+  }
 
 form {
     height: 55px;
     padding-bottom: 10px ;
-}
+  }
 
-button{
+  button{
     background-color: #FF0026;
     color: #fff;
     border: none;
@@ -87,7 +87,7 @@ button{
     border-radius: 8px;
     font-family: AvenirNextBold  sans-serif;
     font-size: 20px;
-}
+  }
 
 #login , a{
     font-size: 18px;
@@ -118,7 +118,7 @@ button{
  }
  
  .content {
-    padding-left: 52px;
+     padding-left: 52px;
      padding-right: 52px;
      margin: auto;
      max-width: 1037px;
