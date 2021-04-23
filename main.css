@@ -54,19 +54,25 @@ main {
   }
 
 input {
-    border: 1px solid #b6b6b6;
+    border: 1px solid #b9b9b9;
     padding: 6px 20px;
     height: 20px;
-    max-width: 110px;
+    max-width: 135px;
     height: 75%;
+    margin-right: 2px;
     border-radius: 8px;
-    margin-right: 10px;
-    font-size: 17px;
+    font-size: 20px;
   }
+input:focus{
+    border: 2px solid;
+    border-color: rgb(0, 132, 255);
+  
+    outline: 0 none;
+}
 
 form {
     height: 55px; 
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     
   }
 
