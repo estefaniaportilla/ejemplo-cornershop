@@ -120,51 +120,40 @@ form {
 
 
 /* <!--CSS: Parte 4 - Estefania --> */
-
 .download {
-     background-color: rgba(220 , 220, 223, 0.8);
-     padding-top: 52px;
-     padding-bottom: 52px;
+    background-color: rgba(220 , 220, 223, 0.8);
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
 }
- 
-.content {
-     padding-left: 52px;
-     padding-right: 52px;
-     margin: auto;
-     max-width: 1037px;
-}
- 
-.group {
-     padding-bottom: 52px;
-     display: table;
-     width: 100%;
-}
- 
-.titulo {
-     display: table-cell;
-     vertical-align: middle;
-     text-align: left;
-}
- 
-.appstores {
-     text-align: right;
-     display: table-cell;
-     vertical-align: middle;
-}
- 
-li {
-     display: inline-flex;
-     margin: 8px;
-     vertical-align: middle;
-     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.15));
-}
- 
-h2 {
-     display: inline-flex;
-     font-size: 36px;
-     font-weight: 600;
-     font-family: AvenirNextBold sans-serif;
-     white-space: nowrap;
-     margin-right: 16px;
-}
+.content{
+   display: flex;
+   flex-wrap:wrap;
+   align-content:center;
+   justify-content: space-evenly;
+   align-items:center;
+   }
+  
+  .boxes{
+     display:inline-flex;
+     margin: 20px;
+
+   }
+  .boxes div{
+   
+   margin: 0 10px 0 10px;
+  }
+
+.c1{
+    display: inline-flex;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: AvenirNextBold sans-serif;
+    white-space: nowrap;
+    margin-right: 16px;
+    align-items: center;
+   justify-content: flex-start;
+} 
+
+
 /* <!--Fin Parte 4 --> */
